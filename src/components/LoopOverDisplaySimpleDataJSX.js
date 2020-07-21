@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Container, Typography, Box } from '@material-ui/core';
-import { findAllByPlaceholderText } from '@testing-library/react';
 
 const users = [
     {

@@ -34,6 +34,15 @@ class Home extends Component {
                     Loop Over and Display Simple Data with JSX
                 </Typography>
             </Grid>
+            <Grid item>
+                <Typography
+                    button
+                    component="a"
+                    href="/use-react-state-to-update-the-dom"
+                >
+                    Use React State to Update the DOM
+                </Typography>
+            </Grid>
         </Grid>
       </Container>
     );
