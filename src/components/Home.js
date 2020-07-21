@@ -25,6 +25,15 @@ class Home extends Component {
                     Display Simple Data with JSX
                 </Typography>
             </Grid>
+            <Grid item>
+                <Typography
+                    button
+                    component="a"
+                    href="/loop-over-and-display-simple-data-with-jsx"
+                >
+                    Loop Over and Display Simple Data with JSX
+                </Typography>
+            </Grid>
         </Grid>
       </Container>
     );
