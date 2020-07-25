@@ -52,6 +52,15 @@ class Home extends Component {
                     Show an Alert Based on an Input
                 </Typography>
             </Grid>
+            <Grid item>
+                <Typography
+                    button
+                    component="a"
+                    href="/adding-calculator"
+                >
+                    Adding Calculator
+                </Typography>
+            </Grid>
         </Grid>
       </Container>
     );
