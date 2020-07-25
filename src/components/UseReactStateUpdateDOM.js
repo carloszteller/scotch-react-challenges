@@ -52,7 +52,7 @@ class UseReactStateUpdateDOM extends Component {
                         type="text"
                         name="name"
                         label="Name"
-                        hintText="Enter your name"
+                        palceholder="Enter your name"
                         fullWidth={true}
                         value={this.state.name}
                         onChange={this.onChangeName}
@@ -63,7 +63,7 @@ class UseReactStateUpdateDOM extends Component {
                         type="text"
                         name="age"
                         label="Age"
-                        hintText="Enter your age"
+                        placeholder="Enter your age"
                         fullWidth={true}
                         value={this.state.age}
                         onChange={this.onChangeAge}

@@ -43,6 +43,15 @@ class Home extends Component {
                     Use React State to Update the DOM
                 </Typography>
             </Grid>
+            <Grid item>
+                <Typography
+                    button
+                    component="a"
+                    href="/show-an-alert-based-on-input"
+                >
+                    Show an Alert Based on an Input
+                </Typography>
+            </Grid>
         </Grid>
       </Container>
     );
