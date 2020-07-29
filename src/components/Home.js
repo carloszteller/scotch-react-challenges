@@ -12,11 +12,8 @@ class Home extends Component {
           Scotch - 10 React Challenges (Beginner) Courses
         </Typography>
 
-        <Grid
-            container
-            justify="space-between"
-        >
-            <Grid item>
+        <Grid container>
+            <Grid item xs={12} md={4}>
                 <Typography
                     button
                     component="a"
@@ -25,7 +22,7 @@ class Home extends Component {
                     Display Simple Data with JSX
                 </Typography>
             </Grid>
-            <Grid item>
+            <Grid item xs={12} md={4}>
                 <Typography
                     button
                     component="a"
@@ -34,7 +31,7 @@ class Home extends Component {
                     Loop Over and Display Simple Data with JSX
                 </Typography>
             </Grid>
-            <Grid item>
+            <Grid item xs={12} md={4}>
                 <Typography
                     button
                     component="a"
@@ -43,7 +40,7 @@ class Home extends Component {
                     Use React State to Update the DOM
                 </Typography>
             </Grid>
-            <Grid item>
+            <Grid item xs={12} md={4}>
                 <Typography
                     button
                     component="a"
@@ -52,7 +49,7 @@ class Home extends Component {
                     Show an Alert Based on an Input
                 </Typography>
             </Grid>
-            <Grid item>
+            <Grid item xs={12} md={4}>
                 <Typography
                     button
                     component="a"

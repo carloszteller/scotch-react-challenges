@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Container, Typography, Box } from '@material-ui/core';
 
 const users = [
@@ -29,45 +29,43 @@ const users = [
     }
   ];
 
-class DisplaySimpleDataJSX extends Component {
-    render() {
-        return (
-            <Container>
-                <Typography
-                    variant="h2"
-                    component="h1"
-                >
-                    Loop Over and Display Simple Data with JSX
-                </Typography>
+const LoopOverDisplaySimpleDataJSX = () => {
+    return (
+        <Container>
+            <Typography
+                variant="h2"
+                component="h1"
+            >
+                Loop Over and Display Simple Data with JSX
+            </Typography>
 
-                {users.map((user, i) => (
-                    <Box
-                        key={i}
-                        mb={2}
-                        className="users-box"
+            {users.map((user, i) => (
+                <Box
+                    key={i}
+                    mb={2}
+                    className="users-box"
+                >
+                    <Typography
+                        component="p"
+                        className="bold mb-3"
                     >
-                        <Typography
-                            component="p"
-                            className="bold mb-3"
-                        >
-                            {user.name}
-                        </Typography>
-                        <Typography
-                            component="p"
-                            className="bold mb-3"
-                        >
-                            {user.location}
-                        </Typography>
-                        <Typography
-                            component="p"
-                        >
-                            {user.car}
-                        </Typography>
-                    </Box>
-                ))}
-            </Container>
-        );
-    }
+                        {user.name}
+                    </Typography>
+                    <Typography
+                        component="p"
+                        className="bold mb-3"
+                    >
+                        {user.location}
+                    </Typography>
+                    <Typography
+                        component="p"
+                    >
+                        {user.car}
+                    </Typography>
+                </Box>
+            ))}
+        </Container>
+    );
 }
 
-export default DisplaySimpleDataJSX;
+export default LoopOverDisplaySimpleDataJSX;
