@@ -6,6 +6,7 @@ import LoopOverDisplaySimpleDataJSX from "./components/LoopOverDisplaySimpleData
 import UseReactStateUpdateDOM from "./components/UseReactStateUpdateDOM";
 import ShowAlertBasedOnInput from "./components/ShowAlertBasedOnInput";
 import AddingCalculator from "./components/AddingCalculator";
+import DOMMovementWithEvents from "./components/DOMMovementWithEvents";
 import "./App.css";
 
 class App extends Component {
@@ -18,6 +19,7 @@ class App extends Component {
         <Route exact path="/use-react-state-to-update-the-dom" component={UseReactStateUpdateDOM} />
         <Route exact path="/show-an-alert-based-on-input" component={ShowAlertBasedOnInput} />
         <Route exact path="/adding-calculator" component={AddingCalculator} />
+        <Route exact path="/dom-movement-with-events" component={DOMMovementWithEvents} />
       </Router>
     );
   }

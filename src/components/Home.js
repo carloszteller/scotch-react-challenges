@@ -58,6 +58,15 @@ class Home extends Component {
                     Adding Calculator
                 </Typography>
             </Grid>
+            <Grid item xs={12} md={4}>
+                <Typography
+                    button
+                    component="a"
+                    href="/dom-movement-with-events"
+                >
+                    DOM Movement with Events
+                </Typography>
+            </Grid>
         </Grid>
       </Container>
     );
