@@ -67,6 +67,14 @@ class Home extends Component {
                     DOM Movement with Events
                 </Typography>
             </Grid>
+            <Grid item xs={12} md={4}>
+                <Typography
+                    button component="a"
+                    href="/fetch-and-display-from-api"
+                >
+                    Fetch and Display from an API
+                </Typography>
+            </Grid>
         </Grid>
       </Container>
     );
