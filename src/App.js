@@ -8,6 +8,7 @@ import ShowAlertBasedOnInput from "./components/ShowAlertBasedOnInput";
 import AddingCalculator from "./components/AddingCalculator";
 import DOMMovementWithEvents from "./components/DOMMovementWithEvents";
 import FetchDisplayFromAPI from "./components/FetchDisplayFromAPI";
+import RecreateLayoutsWithComponents from "./components/RecreateLayoutsWithComponents";
 import "./App.css";
 
 class App extends Component {
@@ -22,6 +23,7 @@ class App extends Component {
         <Route exact path="/adding-calculator" component={AddingCalculator} />
         <Route exact path="/dom-movement-with-events" component={DOMMovementWithEvents} />
         <Route exact path="/fetch-and-display-from-api" component={FetchDisplayFromAPI} />
+        <Route exact path="/recreate-layout-with-components" component={RecreateLayoutsWithComponents} />
       </Router>
     );
   }

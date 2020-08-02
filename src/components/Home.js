@@ -75,6 +75,14 @@ class Home extends Component {
                     Fetch and Display from an API
                 </Typography>
             </Grid>
+            <Grid item xs={12} md={4}>
+                <Typography
+                    button component="a"
+                    href="/recreate-layout-with-components"
+                >
+                    Recreate Layout with Components
+                </Typography>
+            </Grid>
         </Grid>
       </Container>
     );
